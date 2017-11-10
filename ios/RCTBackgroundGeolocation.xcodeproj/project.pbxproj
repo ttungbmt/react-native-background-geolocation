@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412428B51FB5AA2900B21101 /* libBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 412428B01FB5A9F400B21101 /* libBackgroundGeolocation.a */; };
 		414898291FB593B900323454 /* RCTBackgroundGeolocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898281FB593B900323454 /* RCTBackgroundGeolocationTests.m */; };
 		4148982B1FB593B900323454 /* libRCTBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418F75461D02DC3D0045FEA0 /* libRCTBackgroundGeolocation.a */; };
 		418F754A1D02DC3D0045FEA0 /* RCTBackgroundGeolocation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 418F75491D02DC3D0045FEA0 /* RCTBackgroundGeolocation.h */; };
@@ -16,6 +17,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		412428AF1FB5A9F400B21101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 418F75461D02DC3D0045FEA0;
+			remoteInfo = BackgroundGeolocation;
+		};
+		412428B11FB5A9F400B21101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 414898261FB593B900323454;
+			remoteInfo = BackgroundGeolocationTests;
+		};
+		412428B31FB5AA2500B21101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F75451D02DC3D0045FEA0;
+			remoteInfo = BackgroundGeolocation;
+		};
 		4148982C1FB593B900323454 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 418F753E1D02DC3D0045FEA0 /* Project object */;
@@ -39,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BackgroundGeolocation.xcodeproj; sourceTree = "<group>"; };
 		414898261FB593B900323454 /* RCTBackgroundGeolocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTBackgroundGeolocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414898281FB593B900323454 /* RCTBackgroundGeolocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBackgroundGeolocationTests.m; sourceTree = "<group>"; };
 		4148982A1FB593B900323454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412428B51FB5AA2900B21101 /* libBackgroundGeolocation.a in Frameworks */,
 				41E82EA11D5E4F9E00F65575 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412428AB1FB5A9F400B21101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412428B01FB5A9F400B21101 /* libBackgroundGeolocation.a */,
+				412428B21FB5A9F400B21101 /* BackgroundGeolocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		414898271FB593B900323454 /* RCTBackgroundGeolocationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,13 +110,22 @@
 			path = RCTBackgroundGeolocationTests;
 			sourceTree = "<group>";
 		};
+		4148984D1FB5A0C900323454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		418F753D1D02DC3D0045FEA0 = {
 			isa = PBXGroup;
 			children = (
+				412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */,
 				41E82EA01D5E4F9E00F65575 /* CoreLocation.framework */,
 				418F75481D02DC3D0045FEA0 /* RCTBackgroundGeolocation */,
 				414898271FB593B900323454 /* RCTBackgroundGeolocationTests */,
 				418F75471D02DC3D0045FEA0 /* Products */,
+				4148984D1FB5A0C900323454 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +179,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				412428B41FB5AA2500B21101 /* PBXTargetDependency */,
 			);
 			name = RCTBackgroundGeolocation;
 			productName = RCTBackgroundGeolocation;
@@ -171,6 +214,12 @@
 			mainGroup = 418F753D1D02DC3D0045FEA0;
 			productRefGroup = 418F75471D02DC3D0045FEA0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 412428AB1FB5A9F400B21101 /* Products */;
+					ProjectRef = 412428AA1FB5A9F400B21101 /* BackgroundGeolocation.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				418F75451D02DC3D0045FEA0 /* RCTBackgroundGeolocation */,
@@ -178,6 +227,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		412428B01FB5A9F400B21101 /* libBackgroundGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBackgroundGeolocation.a;
+			remoteRef = 412428AF1FB5A9F400B21101 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		412428B21FB5A9F400B21101 /* BackgroundGeolocationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BackgroundGeolocationTests.xctest;
+			remoteRef = 412428B11FB5A9F400B21101 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		414898241FB593B900323454 /* Resources */ = {
@@ -210,6 +276,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		412428B41FB5AA2500B21101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BackgroundGeolocation;
+			targetProxy = 412428B31FB5AA2500B21101 /* PBXContainerItemProxy */;
+		};
 		4148982D1FB593B900323454 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 418F75451D02DC3D0045FEA0 /* RCTBackgroundGeolocation */;
@@ -359,8 +430,6 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -374,8 +443,6 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";

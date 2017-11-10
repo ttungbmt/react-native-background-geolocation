@@ -11,7 +11,7 @@
 #else
 #import "RCTBridgeModule.h"
 #endif
-#import "BackgroundGeolocationFacade.h"
+#import "BackgroundGeolocation/BackgroundGeolocationFacade.h"
 
 @interface RCTBackgroundGeolocation : NSObject <RCTBridgeModule, LocationDelegate>
 
