@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414898291FB593B900323454 /* RCTBackgroundGeolocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898281FB593B900323454 /* RCTBackgroundGeolocationTests.m */; };
+		4148982B1FB593B900323454 /* libRCTBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418F75461D02DC3D0045FEA0 /* libRCTBackgroundGeolocation.a */; };
+		414898381FB593E300323454 /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898311FB593E200323454 /* SQLiteHelper.m */; };
+		414898391FB593E300323454 /* LocationUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898321FB593E300323454 /* LocationUploaderTests.m */; };
+		4148983A1FB593E300323454 /* SQLiteLocationDAOThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898331FB593E300323454 /* SQLiteLocationDAOThreadTests.m */; };
+		4148983B1FB593E300323454 /* SQLiteLocationDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898341FB593E300323454 /* SQLiteLocationDAOTests.m */; };
+		4148983C1FB593E300323454 /* GeolocationOpenHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898351FB593E300323454 /* GeolocationOpenHelperTests.m */; };
+		4148983D1FB593E300323454 /* SQLiteOpenHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898361FB593E300323454 /* SQLiteOpenHelperTests.m */; };
+		4148983E1FB593E300323454 /* BackgroundLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 414898371FB593E300323454 /* BackgroundLocationTests.m */; };
 		418F754A1D02DC3D0045FEA0 /* RCTBackgroundGeolocation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 418F75491D02DC3D0045FEA0 /* RCTBackgroundGeolocation.h */; };
 		418F754C1D02DC3D0045FEA0 /* RCTBackgroundGeolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 418F754B1D02DC3D0045FEA0 /* RCTBackgroundGeolocation.m */; };
 		4198B2401FB0D4EB00DCC96D /* LocationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4198B21F1FB08D7700DCC96D /* LocationController.h */; };
@@ -54,6 +63,16 @@
 		41E82EA11D5E4F9E00F65575 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E82EA01D5E4F9E00F65575 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4148982C1FB593B900323454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418F753E1D02DC3D0045FEA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F75451D02DC3D0045FEA0;
+			remoteInfo = RCTBackgroundGeolocation;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		418F75441D02DC3D0045FEA0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -75,6 +94,16 @@
 		41399A081D941BC7005D6B5D /* LocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDelegate.h; sourceTree = "<group>"; };
 		41399A091D941BC7005D6B5D /* AbstractLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractLocationProvider.h; sourceTree = "<group>"; };
 		41399A0A1D941BC7005D6B5D /* AbstractLocationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractLocationProvider.m; sourceTree = "<group>"; };
+		414898261FB593B900323454 /* RCTBackgroundGeolocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTBackgroundGeolocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		414898281FB593B900323454 /* RCTBackgroundGeolocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBackgroundGeolocationTests.m; sourceTree = "<group>"; };
+		4148982A1FB593B900323454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414898311FB593E200323454 /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
+		414898321FB593E300323454 /* LocationUploaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUploaderTests.m; sourceTree = "<group>"; };
+		414898331FB593E300323454 /* SQLiteLocationDAOThreadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteLocationDAOThreadTests.m; sourceTree = "<group>"; };
+		414898341FB593E300323454 /* SQLiteLocationDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteLocationDAOTests.m; sourceTree = "<group>"; };
+		414898351FB593E300323454 /* GeolocationOpenHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationOpenHelperTests.m; sourceTree = "<group>"; };
+		414898361FB593E300323454 /* SQLiteOpenHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteOpenHelperTests.m; sourceTree = "<group>"; };
+		414898371FB593E300323454 /* BackgroundLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLocationTests.m; sourceTree = "<group>"; };
 		418F75461D02DC3D0045FEA0 /* libRCTBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBackgroundGeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		418F75491D02DC3D0045FEA0 /* RCTBackgroundGeolocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBackgroundGeolocation.h; sourceTree = "<group>"; };
 		418F754B1D02DC3D0045FEA0 /* RCTBackgroundGeolocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBackgroundGeolocation.m; sourceTree = "<group>"; };
@@ -116,6 +145,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		414898231FB593B900323454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4148982B1FB593B900323454 /* libRCTBackgroundGeolocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		418F75431D02DC3D0045FEA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,11 +164,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414898271FB593B900323454 /* RCTBackgroundGeolocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				414898371FB593E300323454 /* BackgroundLocationTests.m */,
+				414898351FB593E300323454 /* GeolocationOpenHelperTests.m */,
+				414898321FB593E300323454 /* LocationUploaderTests.m */,
+				414898311FB593E200323454 /* SQLiteHelper.m */,
+				414898341FB593E300323454 /* SQLiteLocationDAOTests.m */,
+				414898331FB593E300323454 /* SQLiteLocationDAOThreadTests.m */,
+				414898361FB593E300323454 /* SQLiteOpenHelperTests.m */,
+				414898281FB593B900323454 /* RCTBackgroundGeolocationTests.m */,
+				4148982A1FB593B900323454 /* Info.plist */,
+			);
+			path = RCTBackgroundGeolocationTests;
+			sourceTree = "<group>";
+		};
 		418F753D1D02DC3D0045FEA0 = {
 			isa = PBXGroup;
 			children = (
 				41E82EA01D5E4F9E00F65575 /* CoreLocation.framework */,
 				418F75481D02DC3D0045FEA0 /* RCTBackgroundGeolocation */,
+				414898271FB593B900323454 /* RCTBackgroundGeolocationTests */,
 				418F75471D02DC3D0045FEA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				418F75461D02DC3D0045FEA0 /* libRCTBackgroundGeolocation.a */,
+				414898261FB593B900323454 /* RCTBackgroundGeolocationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +284,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		414898251FB593B900323454 /* RCTBackgroundGeolocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414898301FB593B900323454 /* Build configuration list for PBXNativeTarget "RCTBackgroundGeolocationTests" */;
+			buildPhases = (
+				414898221FB593B900323454 /* Sources */,
+				414898231FB593B900323454 /* Frameworks */,
+				414898241FB593B900323454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4148982D1FB593B900323454 /* PBXTargetDependency */,
+			);
+			name = RCTBackgroundGeolocationTests;
+			productName = RCTBackgroundGeolocationTests;
+			productReference = 414898261FB593B900323454 /* RCTBackgroundGeolocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		418F75451D02DC3D0045FEA0 /* RCTBackgroundGeolocation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418F754F1D02DC3D0045FEA0 /* Build configuration list for PBXNativeTarget "RCTBackgroundGeolocation" */;
@@ -255,6 +328,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mauron85;
 				TargetAttributes = {
+					414898251FB593B900323454 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					418F75451D02DC3D0045FEA0 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -273,11 +350,37 @@
 			projectRoot = "";
 			targets = (
 				418F75451D02DC3D0045FEA0 /* RCTBackgroundGeolocation */,
+				414898251FB593B900323454 /* RCTBackgroundGeolocationTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		414898241FB593B900323454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		414898221FB593B900323454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4148983E1FB593E300323454 /* BackgroundLocationTests.m in Sources */,
+				4148983C1FB593E300323454 /* GeolocationOpenHelperTests.m in Sources */,
+				414898391FB593E300323454 /* LocationUploaderTests.m in Sources */,
+				414898291FB593B900323454 /* RCTBackgroundGeolocationTests.m in Sources */,
+				414898381FB593E300323454 /* SQLiteHelper.m in Sources */,
+				4148983B1FB593E300323454 /* SQLiteLocationDAOTests.m in Sources */,
+				4148983D1FB593E300323454 /* SQLiteOpenHelperTests.m in Sources */,
+				4148983A1FB593E300323454 /* SQLiteLocationDAOThreadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		418F75421D02DC3D0045FEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,7 +433,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4148982D1FB593B900323454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418F75451D02DC3D0045FEA0 /* RCTBackgroundGeolocation */;
+			targetProxy = 4148982C1FB593B900323454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4148982E1FB593B900323454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RCTBackgroundGeolocationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marianhello.RCTBackgroundGeolocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4148982F1FB593B900323454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RCTBackgroundGeolocationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marianhello.RCTBackgroundGeolocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		418F754D1D02DC3D0045FEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +611,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		414898301FB593B900323454 /* Build configuration list for PBXNativeTarget "RCTBackgroundGeolocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4148982E1FB593B900323454 /* Debug */,
+				4148982F1FB593B900323454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		418F75411D02DC3D0045FEA0 /* Build configuration list for PBXProject "RCTBackgroundGeolocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
